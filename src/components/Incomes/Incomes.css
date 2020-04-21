@@ -1,0 +1,81 @@
+.Incomes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./background_search_desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15rem;
+  margin-bottom: 1.25rem;
+}
+
+.Incomes-fields {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.88rem;
+}
+
+.Incomes-fields input {
+  width: 21rem;
+  padding: .66rem 1rem;
+  margin-right: 2.22rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: .77rem;
+  font-weight: 500;
+}
+
+.Incomes-type {
+  text-align: center;
+  margin-bottom: 2.88rem;
+}
+
+.Incomes-type label{
+  color: white;
+  padding: 0px 50px 0px 10px;
+}
+
+.Incomes-type input{
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: .77rem;
+  font-weight: 500;
+}
+
+.Incomes-fields input:last-child {
+  margin-right: 0;
+}
+
+.Incomes-submit {
+  text-align: center;
+}
+
+.Incomes-submit a {
+  border-radius: 4px;
+  padding: .72rem 1.7rem;
+  background-color: #cca353;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color .5s;
+}
+
+.Incomes-submit a:hover {
+  cursor: pointer;
+  background-color: #a7874b;
+}
+
+@media only screen and (max-width: 560px) {
+  .Incomes {
+    background-image: url('./background_search_mobile.jpg');
+  }
+
+  .Incomes-fields {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Incomes-fields input {
+    margin-right: 0;
+    margin-bottom: .86rem;
+  }
+}
