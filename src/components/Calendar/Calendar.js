@@ -3,15 +3,15 @@ import './Calendar.css';
 import moment from 'moment';
 
 class Calendar extends React.Component {
-    state = {
-        dateContext: moment(),
-        today: moment(),
-        showMonthPopUp: false,
-        showYearPopUp: false
-    }
-    
+
     constructor(props) {
         super(props);
+        this.state = {
+            dateContext: moment(),
+            today: moment(),
+            showMonthPopUp: false,
+            showYearPopUp: false,
+        };
 
     }
 

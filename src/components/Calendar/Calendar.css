@@ -9,7 +9,10 @@ tr {
 
 .calendar-container {
     border: 2px solid skyblue;
-    margin: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -12.5%;
+    margin-bottom: 1.25rem;
     width: 25%;
 }
 
@@ -54,9 +57,9 @@ tr {
 
 .current-day {
     background-color: #4285f4;
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     border-radius: 2%;
     color: white;
 }
